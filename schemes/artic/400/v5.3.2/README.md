@@ -1,6 +1,6 @@
 # artic 400bp v5.3.2
 
-[![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)]
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 > If you use this scheme please cite: https://doi.org/10.1101%2F2020.09.04.283077
 

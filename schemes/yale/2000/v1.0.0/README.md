@@ -1,6 +1,6 @@
 # yale 2000bp v1.0.0
 
-[![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)]
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4
 

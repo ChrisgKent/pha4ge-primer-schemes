@@ -1,6 +1,6 @@
 # nipah 400bp v1.0.0
 
-[![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)]
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 [primalscheme labs](https://labs.primalscheme.com/detail/nipah/400/v1.0.0)
 

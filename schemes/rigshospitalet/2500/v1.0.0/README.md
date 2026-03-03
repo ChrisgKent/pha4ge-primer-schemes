@@ -1,6 +1,6 @@
 # rigshospitalet 2500bp v1.0.0
 
-[![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)]
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 > If you use this scheme please cite: https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
 

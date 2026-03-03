@@ -1,6 +1,6 @@
 # midnight 1200bp v3.0.0-ont
 
-[![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)]
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 

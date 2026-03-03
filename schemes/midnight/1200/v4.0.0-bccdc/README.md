@@ -1,6 +1,6 @@
 # midnight 1200bp v4.0.0-bccdc
 
-[![Generic badge](https://img.shields.io/badge/STATUS-DEPRECATED-red.svg)]
+![Generic badge](https://img.shields.io/badge/STATUS-DEPRECATED-red.svg)
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 
