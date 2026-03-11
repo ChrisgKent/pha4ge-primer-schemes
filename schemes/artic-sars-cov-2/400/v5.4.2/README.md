@@ -1,10 +1,10 @@
-# artic 400bp v5.4.2
+# artic-sars-cov-2 400bp v5.4.2
 
 ![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 > If you use this scheme please cite: https://doi.org/10.1101%2F2020.09.04.283077
 
-[primalscheme labs](https://labs.primalscheme.com/detail/artic/400/v5.4.2)
+[primalscheme labs](https://labs.primalscheme.com/detail/artic-sars-cov-2/400/v5.4.2)
 
 ## Metadata
 
@@ -26,7 +26,7 @@
 ```json
 {
     "schema_version": "1.0.0-alpha",
-    "name": "artic",
+    "name": "artic-sars-cov-2",
     "amplicon_size": 400,
     "version": "v5.4.2",
     "contributors": [

@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0-alpha",
-    "name": "artic",
+    "name": "artic-sars-cov-2",
     "amplicon_size": 400,
     "version": "v4.1.0",
     "contributors": [
