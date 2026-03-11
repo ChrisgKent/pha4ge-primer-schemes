@@ -1,10 +1,10 @@
-# midnight 1200bp v3.0.0-bccdc
+# midnight-sars-cov-2 1200bp v3.0.0-bccdc
 
 ![Generic badge](https://img.shields.io/badge/STATUS-DEPRECATED-red.svg)
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 
-[primalscheme labs](https://labs.primalscheme.com/detail/midnight/1200/v3.0.0-bccdc)
+[primalscheme labs](https://labs.primalscheme.com/detail/midnight-sars-cov-2/1200/v3.0.0-bccdc)
 
 ## Metadata
 
@@ -29,7 +29,7 @@
 ```json
 {
     "schema_version": "1.0.0-alpha",
-    "name": "midnight",
+    "name": "midnight-sars-cov-2",
     "amplicon_size": 1200,
     "version": "v3.0.0-bccdc",
     "contributors": [

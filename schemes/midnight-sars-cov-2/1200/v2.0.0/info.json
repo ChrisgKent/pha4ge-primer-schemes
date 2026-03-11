@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0-alpha",
-    "name": "midnight",
+    "name": "midnight-sars-cov-2",
     "amplicon_size": 1200,
     "version": "v2.0.0",
     "contributors": [
