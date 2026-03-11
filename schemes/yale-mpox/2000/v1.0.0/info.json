@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0-alpha",
-    "name": "yale",
+    "name": "yale-mpox",
     "amplicon_size": 2000,
     "version": "v1.0.0",
     "contributors": [

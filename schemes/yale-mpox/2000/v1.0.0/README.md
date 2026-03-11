@@ -1,10 +1,10 @@
-# yale 2000bp v1.0.0
+# yale-mpox 2000bp v1.0.0
 
 ![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4
 
-[primalscheme labs](https://labs.primalscheme.com/detail/yale/2000/v1.0.0)
+[primalscheme labs](https://labs.primalscheme.com/detail/yale-mpox/2000/v1.0.0)
 
 ## Metadata
 
@@ -46,7 +46,7 @@
 ```json
 {
     "schema_version": "1.0.0-alpha",
-    "name": "yale",
+    "name": "yale-mpox",
     "amplicon_size": 2000,
     "version": "v1.0.0",
     "contributors": [
