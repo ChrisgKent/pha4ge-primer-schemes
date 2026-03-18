@@ -3,7 +3,7 @@ name: Build Index on Main
 on:
   push:
     branches: [main]
-    paths: "schemes/*"
+    paths: "schemes/**"
 
 jobs:
   build-index:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Build index
         run: |
-          uv run primaschema build-manifest --root ./schemes --out .
+          uv run primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > _index.json
 
       - name: Commit index.json if changed
         run: |
@@ -46,5 +46,5 @@ jobs:
           git config user.name "primer-bot"
           git config user.email "primer-bot@users.noreply.github.com"
           git add index.json
-          git commit -m "Update index.json"
+          git commit -m "auto update index.json"
           git push
