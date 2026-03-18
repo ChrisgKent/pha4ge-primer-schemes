@@ -27,7 +27,7 @@ jobs:
 
       - name: Install primaschema (pinned)
         run: |
-          uv pip install "primaschema @ git+https://github.com/<org>/primaschema@<TAG_OR_SHA>"
+          uv pip install "primaschema @ git+https://github.com/ChrisgKent/pha4ge-primaschema@1c895f5"
 
       - name: Validate schemes
         run: |
