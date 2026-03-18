@@ -1,6 +1,6 @@
 # artic-sars-cov-2 400bp v5.3.2
 
-![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
+![Generic badge](https://img.shields.io/badge/STATUS-DEPRECATED-red.svg)
 
 > If you use this scheme please cite: https://doi.org/10.1101%2F2020.09.04.283077
 
@@ -43,7 +43,7 @@
         "ARTIC/V5.3.2"
     ],
     "license": "CC-BY-SA-4.0",
-    "status": "DRAFT",
+    "status": "DEPRECATED",
     "derived_from": "sars-cov-2/artic/400/v5.2.0",
     "citations": [
         "https://doi.org/10.1101%2F2020.09.04.283077"
