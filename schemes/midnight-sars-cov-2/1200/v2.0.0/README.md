@@ -4,8 +4,6 @@
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 
-[primalscheme labs](https://labs.primalscheme.com/detail/midnight-sars-cov-2/1200/v2.0.0)
-
 ## Notes
 
 Accomodates Omicron BA.1 with single primer addition
@@ -32,7 +30,7 @@ Not considered a new version by Freed et al. and IDT despite additional primer
 
 ## Overviews
 
-<div style="width: 100%;"><img src="work/primer.svg" style="width: 100%;" alt="Click to see the source"></div>
+<div style="width: 100%;"><img src="assets/primer.svg" style="width: 100%;" alt="Click to see the source"></div>
 
 ## Details
 
@@ -88,6 +86,6 @@ Not considered a new version by Freed et al. and IDT despite additional primer
 
 ------------------------------------------------------------------------
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
