@@ -15,28 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Install uv
         uses: astral-sh/setup-uv@v4
-
-      - name: Cache uv
-        uses: actions/cache@v4
         with:
-          path: ~/.cache/uv
-          key: uv-${{ runner.os }}-${{ hashFiles('**/uv.lock') }}
-          restore-keys: |
-            uv-${{ runner.os }}-
+          enable-cache: true
 
-      - name: Install primaschema (pinned)
-        run: |
-          uv pip install primaschema
+      - name: Install primaschema
+        run: uv tool install primaschema
       - name: Build index
         run: |
-          uv run primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > index.json
+          primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > index.json
 
       - name: Commit index.json if changed
         run: |
