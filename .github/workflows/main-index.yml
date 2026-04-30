@@ -31,11 +31,11 @@ jobs:
 
       - name: Install primaschema (pinned)
         run: |
-          uv pip install "primaschema @ git+https://github.com/ChrisgKent/pha4ge-primaschema@1c895f5"
+          uv pip install primaschema
 
       - name: Build index
         run: |
-          uv run primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > _index.json
+          uv run primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > index.json
 
       - name: Commit index.json if changed
         run: |
