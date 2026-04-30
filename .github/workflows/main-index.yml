@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths: "schemes/**"
 
+  workflow_dispatch:
+
 jobs:
   build-index:
     runs-on: ubuntu-latest
@@ -32,7 +34,6 @@ jobs:
       - name: Install primaschema (pinned)
         run: |
           uv pip install primaschema
-
       - name: Build index
         run: |
           uv run primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > index.json
